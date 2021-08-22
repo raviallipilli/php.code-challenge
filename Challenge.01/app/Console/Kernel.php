@@ -12,14 +12,14 @@ class Kernel
      *
      * @var \Symfony\Component\Console\Application
      */
-    protected Application $app;
+    protected $app;
 
     /**
      * The commands provided by console application.
      *
      * @var array
      */
-    protected array $commands = [
+    protected $commands = [
         \App\Console\Commands\Reports\GenerateUserStatisticsCommand::class,
     ];
 
