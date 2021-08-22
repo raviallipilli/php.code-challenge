@@ -1,0 +1,27 @@
+{
+    "name": "simplestream/php.code-challenge",
+    "type": "project",
+    "description": "Simplestream PHP Code Challenge 01",
+    "homepage": "https://github.com/simplestream/php.code-challenge",
+    "autoload": {
+        "files": [
+            "app/Support/Helpers.php"
+        ],
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require-dev": {
+        "symfony/var-dumper": "^5.3",
+        "nunomaduro/collision": "^5.5",
+        "psy/psysh": "^0.10.8"
+    },
+    "require": {
+        "symfony/console": "^5.3",
+        "symfony/dotenv": "^5.3",
+        "nesbot/carbon": "^2.50",
+        "league/csv": "^9.7"
+    }
+}
